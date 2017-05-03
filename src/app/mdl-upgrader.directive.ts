@@ -12,6 +12,7 @@ export class MdlUpgraderDirective implements AfterViewChecked{
         if (componentHandler) {
             componentHandler.upgradeAllRegistered();
         }
+        console.log("directiva pega");
     }
 
 }

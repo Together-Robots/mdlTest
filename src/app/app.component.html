@@ -8,10 +8,8 @@
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation. We hide it in small screens. -->
       <nav class="mdl-navigation mdl-layout--large-screen-only">
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" routerLink="/dashboard">Dashboard</a>
+        <a class="mdl-navigation__link" routerLink="/register">Register</a>
       </nav>
     </div>
   </header>
@@ -26,8 +24,9 @@
   </div>
   <main class="mdl-layout__content">
     <div class="page-content">
-        <!-- Your content goes here -->
-        <h1>Hello world</h1>
+      <!-- Your content goes here -->
+      <div class="ribbon"></div>
+      <router-outlet></router-outlet>
     </div>
   </main>
 </div>

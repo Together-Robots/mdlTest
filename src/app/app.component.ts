@@ -5,7 +5,7 @@ import { MdlUpgraderDirective } from './mdl-upgrader.directive';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  directives: [MdlUpgraderDirective]
+  // directives: [MdlUpgraderDirective]
 })
 export class AppComponent {
   title = 'app works!';
